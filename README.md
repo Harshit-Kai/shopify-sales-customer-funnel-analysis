@@ -81,8 +81,8 @@ Data includes:
 
 ### Sales Analysis
 
-![Sales](Images/sales_analysis1.png)
-![Sales](Images/sales_analysis2.png)
+![Sales](Images/sales_analysis/sales_analysis1.png)
+![Sales](Images/sales_analysis/sales_analysis2.png)
 
 ### Kpi Summary
 ![Kpi](Images/kpi_summary.png) 
