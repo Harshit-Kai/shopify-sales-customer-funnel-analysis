@@ -76,8 +76,8 @@ Data includes:
 
 ### Customer Behaviour & Retention Analysis
 
-![Customer](Images/customer_behaviour&retention_analysis1.png)
-![Customer](Images/customer_behaviour&retention_analysis2.png)
+![Customer](Images/customer_behaviour&retention_analysis/customer_behaviour&retention_analysis1.png)
+![Customer](Images/customer_behaviour&retention_analysis/customer_behaviour&retention_analysis2.png)
 
 ### Sales Analysis
 
