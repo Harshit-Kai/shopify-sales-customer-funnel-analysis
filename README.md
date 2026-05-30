@@ -72,18 +72,18 @@ Data includes:
 
 ### Executive Dashboard
 
-![Dashboard](images/dashboard_home.png)
+![Dashboard](Images/dashboard_home.png)
 
 ### Customer Behaviour & Retention Analysis
 
-![Customer](images/customer_behaviour&retention_analysis.png)
+![Customer](Images/customer_behaviour&retention_analysis.png)
 
 ### Sales Analysis
 
-![Sales](images/sales_analysis.png)
+![Sales](Images/sales_analysis.png)
 
 ### Kpi Summary
-![Kpi](images/kpi_summary.png) 
+![Kpi](Images/kpi_summary.png) 
 
 ## Key Insights
 
