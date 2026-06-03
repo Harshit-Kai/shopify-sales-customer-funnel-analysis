@@ -1,122 +1,133 @@
-# Shopify Sales & Customer Funnel Analysis Dashboard
+# Shopify Sales & Customer Funnel Analysis
 
-An end-to-end data analytics project built using Excel and Power BI to analyse sales performance, customer behaviour, and conversion funnel metrics for a Shopify e-commerce business.
+An end-to-end business intelligence project built using **Excel** and **Power BI** to analyse sales performance, customer behaviour, and retention metrics for a Shopify e-commerce store.
+
+---
 
 ## Project Overview
 
-This project analyses Shopify sales and customer funnel data to identify:
+This project digs into one week of Shopify transaction data to answer a focused business question:
 
-- Revenue trends
-- Customer purchasing behaviour
-- Funnel conversion rates
-- Top-performing products
-- Sales by region
-- Customer retention opportunities
+> *Which customers, products, and regions are actually driving revenue — and what should the business do about it?*
 
-The dashboard helps stakeholders make data-driven decisions to improve sales performance and customer acquisition strategies.
+Rather than just reporting numbers, this dashboard was designed to surface decisions: where to invest marketing spend, which products to prioritise, and how to reduce lost revenue from one-time buyers.
+
+---
 
 ## Business Problem
 
-E-commerce businesses generate large amounts of sales and customer data, but often struggle to answer:
+E-commerce teams often drown in raw order data without clarity on what's actually moving the needle. This project addresses three specific questions a Shopify business owner or analyst would genuinely ask:
 
-- Which products generate the most revenue?
-- Where are customers dropping off in the funnel?
-- Which regions perform best?
-- How can conversion rates be improved?
-- Which customer segments drive revenue?
+- Are our customers coming back, or are we constantly acquiring new ones?
+- Which products carry the business — and which ones are dead weight?
+- Where geographically should we focus our sales and marketing efforts?
 
-This dashboard provides actionable insights to answer these questions.
+---
 
 ## Tools & Technologies
 
-- Microsoft Excel
-- Power BI
-- Power Query
-- DAX
-- Data Visualization
-- Business Intelligence
+| Tool | Purpose |
+|------|---------|
+| Microsoft Excel | Data cleaning, transformation |
+| Power BI | Dashboard development, DAX calculations |
+| Power Query | Data modelling and shaping |
+| DAX | Custom KPI calculations |
+
+---
 
 ## Dataset
 
-Source: Shopify Sales Dataset
+- **Source:** Shopify Sales Dataset
+- **Period:** Single-week transaction snapshot
+- **Records:** 5,000+ e-commerce transactions
+- **Fields:** Orders, Customers, Products, Revenue, Regions, Funnel Stages
 
-Data includes:
+---
 
-- Orders
-- Customers
-- Revenue
-- Products
-- Regions
-- Funnel Stages
-- Sales Metrics
+## Key Metrics
 
-## Dashboard Features
+| Metric | Value |
+|--------|-------|
+| Customer Lifetime Value | $944 |
+| Average Order Value | $562 |
+| Repeat Purchase Rate | 46% |
+| Total Customers Tracked | 4,431 |
+| Top Region (Net Sales) | Washington — ~$100,000 |
+| 2nd Region (Net Sales) | Houston — ~$90,000 |
 
-### Sales Performance Analysis
-- Total Revenue
-- Total Orders
-- Average Order Value
-- Monthly Sales Trend
+---
 
-### Customer Analysis
-- Customer Segmentation
-- Repeat Customers
-- New Customers
+## Key Insights
 
-### Product Analysis
-- Top Products
-- Revenue Contribution
-- Product Performance
+**1. Nearly half of all customers came back.**
+A 46% repeat purchase rate is a strong retention signal. It means almost 1 in 2 customers liked their experience enough to order again — something many e-commerce stores struggle to achieve. The business should invest in keeping this segment loyal rather than over-spending on new customer acquisition.
+
+**2. Two products alone carry 32% of total revenue.**
+Running Shoes (20%) and Tennis Shoes (12%) together account for nearly a third of all sales. This is a concentration risk — if either product goes out of stock or faces a competitor, revenue takes a significant hit. The business should ensure these SKUs have priority inventory and consider expanding variants.
+
+**3. Washington and Houston together dominate net sales.**
+Washington (~$100K) and Houston (~$90K) are clearly the highest-converting markets. These regions deserve targeted promotions and loyalty campaigns. Regions performing significantly below these benchmarks should be investigated — is it a logistics issue, a visibility issue, or simply low demand?
+
+**4. At $562 average order value, upselling has real potential.**
+With a high AOV and $944 lifetime value per customer, even a small improvement in cross-selling complementary products (accessories, apparel) could meaningfully move revenue. The data suggests customers are willing to spend — the opportunity is in giving them more to buy.
+
+**5. The biggest revenue leak is one-time buyers (54%).**
+More than half of customers never returned. Even converting 10% of one-time buyers into repeat customers would add significant lifetime value at scale. Targeted email sequences or discount offers post-first-purchase could directly address this.
+
+---
 
 ## Dashboard Preview
 
 ### Executive Dashboard
-
 ![Dashboard](Images/dashboard_home.png)
 
 ### Customer Behaviour & Retention Analysis
-
-![Customer](Images/customer_behaviour&retention_analysis/customer_behaviour&retention_analysis1.png)
-![Customer](Images/customer_behaviour&retention_analysis/customer_behaviour&retention_analysis2.png)
+![Customer 1](Images/customer_behaviour&retention_analysis/customer_behaviour&retention_analysis1.png)
+![Customer 2](Images/customer_behaviour&retention_analysis/customer_behaviour&retention_analysis2.png)
 
 ### Sales Analysis
+![Sales 1](Images/sales_analysis/sales_analysis1.png)
+![Sales 2](Images/sales_analysis/sales_analysis2.png)
 
-![Sales](Images/sales_analysis/sales_analysis1.png)
-![Sales](Images/sales_analysis/sales_analysis2.png)
+### KPI Summary
+![KPI](Images/kpi_summary.png)
 
-### Kpi Summary
-![Kpi](Images/kpi_summary.png) 
+---
 
-## Key Insights
+## Dashboard Features
 
-1. Top 20% products generated over 70% of total revenue.
+- **Drill-through navigation panels** — click into any segment for deeper analysis
+- **Filter slicers** — cut by region, product category, customer type
+- **Customer segmentation** — new vs. repeat buyer breakdown
+- **Funnel stage tracking** — where customers drop off before completing purchase
+- **DAX-powered KPIs** — lifetime value, AOV, repeat rate calculated dynamically
 
-2. The highest customer drop-off occurred between the Add-to-Cart and Checkout stages.
+---
 
-3. Returning customers showed higher average order values.
+## Business Recommendations
 
-4. Revenue peaked during promotional periods.
+1. **Protect the top products.** Running Shoes and Tennis Shoes are revenue-critical — maintain strong inventory and consider bundling them with accessories.
+2. **Convert the 54% one-time buyers.** A simple post-purchase email campaign with a 10% return discount could significantly lift LTV.
+3. **Double down on Washington and Houston.** These markets are proven — targeted regional promotions here have the highest ROI potential.
+4. **Don't over-invest in low-performing regions yet.** Understand *why* they underperform before spending on them.
+5. **Track AOV trends weekly.** At $562, small drops in AOV signal product mix problems before they hit total revenue.
 
-5. Certain regions consistently outperformed others in conversion rates.
-
-## Recommendations
-
-- Improve checkout experience to reduce cart abandonment.
-- Focus marketing spend on high-converting regions.
-- Promote top-performing products through cross-selling.
-- Introduce loyalty programs to increase customer retention.
-- Optimize product pages with low conversion rates.
-
+---
 
 ## Project Workflow
 
-1. Data Collection
-2. Data Cleaning
-3. Data Transformation
-4. Data Modelling
-5. DAX Calculations
-6. Dashboard Design
-7. Insight Generation
-8. Business Recommendations
+1. Data ingestion from raw Shopify export
+2. Data cleaning in Excel (null handling, type formatting, deduplication)
+3. Data modelling in Power Query
+4. DAX measures for LTV, AOV, repeat rate, funnel conversion
+5. Dashboard design with drill-through and interactive slicers
+6. Insight generation and business recommendations
 
+---
 
+## Author
+
+**Harshit Kaishwar**
+📧 kaishwarsid@gmail.com
+🔗 [LinkedIn](https://www.linkedin.com/in/harshit-kaishwar-7286112b9)
+🐙 [GitHub](https://github.com/Harshit-Kai)
